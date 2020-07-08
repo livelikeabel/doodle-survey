@@ -24,6 +24,7 @@ function App() {
             <div>
               <p>home</p>
               <input type='date'></input>
+              <input type='number'></input>
             </div>
           </Route>
         </Switch>
