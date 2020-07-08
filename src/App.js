@@ -21,8 +21,10 @@ function App() {
             <Poster4 />
           </Route>
           <Route path="/">
-            <p>home</p>
-            <input type='date'></input>
+            <div>
+              <p>home</p>
+              <input type='date'></input>
+            </div>
           </Route>
         </Switch>
       </div>
