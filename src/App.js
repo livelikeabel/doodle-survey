@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
+import {KeypadTest} from "./KeypadTest";
 
 function App() {
 
@@ -8,6 +9,9 @@ function App() {
     <Router>
       <div>
         <Switch>
+          <Route path="/keypad-test">
+            <KeypadTest/>
+          </Route>
           <Route path="/poster1">
             <Poster1 />
           </Route>
