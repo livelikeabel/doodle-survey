@@ -27,8 +27,7 @@ function App() {
           <Route path="/">
             <div>
               <p>home</p>
-              <input type='date'></input>
-              <input type='number'></input>
+              <input type="text" id="phone-number" onFocus="blur();"/>
             </div>
           </Route>
         </Switch>
